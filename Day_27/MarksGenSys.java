@@ -14,7 +14,7 @@ public class MarksGenSys {
             System.out.println("\n1. Generate Marksheet | 2. View All Marksheets | 3. Exit");
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
-
+            
             switch (choice) {
                 case 1:
                     if (count >= 10) {
